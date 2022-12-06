@@ -1,0 +1,28 @@
+.search{
+    top: 100px;
+    max-width: 750px;
+    background-color: #aebdeb;
+}
+.post{
+    display: flex;
+    justify-content: center;
+}
+
+body,html{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Storm-Wallpaper-Free-Download.jpg");
+    background-size: cover;
+    background-color: (0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+.mes{
+    max-width: 500px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+}
+.txt{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
