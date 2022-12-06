@@ -56,9 +56,6 @@
           <img src="https://static2.tripoto.com/media/filter/tst/img/522191/TripDocument/1561293142_shutterstock_126450347.jpg" class="card-img" alt="...">
           <div class="card-img-overlay text-dark">
             <div class="txt">
-                <div class="te">
-                <img src=${iconcode}><br>
-                <span>${weather['weather'][0]['description']}</span>
               </div>
                 <h1>${weather['main']['temp']}<sup>o</sup>F</h1>
                 <span>feels like ${weather['main']['feels_like']}<sup>o</sup>F</span>
@@ -69,6 +66,9 @@
         </div>    
         <div class="card-body">
           <h3 class="card-title">Weather details</h3>
+          <h5>Weather</h5>
+          <img src=${iconcode}><br>
+                <span>${weather['weather'][0]['description']}</span>
           <h5>Country</h5>
           <span>${weather['sys']['country']}</span>
           <h5>Humidity</h5>
